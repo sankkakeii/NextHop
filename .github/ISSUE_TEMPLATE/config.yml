@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/yourusername/next-api-click/discussions
+    about: Ask questions and discuss with other community members
+  - name: Documentation
+    url: https://github.com/yourusername/next-api-click/tree/main/.docs
+    about: Check our documentation for answers to common questions
+  - name: Contributing Guidelines
+    url: https://github.com/yourusername/next-api-click/blob/main/CONTRIBUTING.md
+    about: Review our contributing guidelines before submitting an issue

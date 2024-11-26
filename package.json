@@ -1,0 +1,55 @@
+{
+  "name": "next-api-click",
+  "displayName": "NextHop",
+  "description": "Enable Ctrl+Click navigation for Next.js API routes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "author": {
+    "name": "Your Name",
+    "role": "Project Creator and Maintainer"
+  },
+  "contributors": [
+    {
+      "name": "AI Assistance",
+      "role": "Development Support (Cascade AI)"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/next-api-click"
+  },
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && rimraf test-workspace",
+    "test": "mocha out/test/suite/**/*.test.js",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^14.18.63",
+    "@types/vscode": "^1.95.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.27.0",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^4.3.2"
+  }
+}
