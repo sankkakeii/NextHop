@@ -5,6 +5,7 @@ First off, thank you for considering contributing to NextHop! It's people like y
 ## Development Philosophy
 
 This project embraces modern development practices, including AI-assisted development. We believe in:
+
 - Transparency about our development process
 - High standards for code quality
 - Inclusive and welcoming community
@@ -13,6 +14,7 @@ This project embraces modern development practices, including AI-assisted develo
 ## Code of Conduct
 
 By participating in this project, you agree to abide by our Code of Conduct:
+
 - Be respectful and inclusive
 - Welcome newcomers
 - Focus on constructive feedback
@@ -21,6 +23,7 @@ By participating in this project, you agree to abide by our Code of Conduct:
 ## How Can I Contribute?
 
 ### Reporting Bugs
+
 1. Check if the bug is already reported in Issues
 2. If not, create a new issue with:
    - Clear title and description
@@ -30,6 +33,7 @@ By participating in this project, you agree to abide by our Code of Conduct:
    - Project structure (if relevant)
 
 ### Suggesting Enhancements
+
 1. Check existing issues and discussions
 2. Create a new issue with:
    - Clear use case
@@ -47,6 +51,7 @@ By participating in this project, you agree to abide by our Code of Conduct:
 6. Submit a pull request
 
 #### Pull Request Guidelines
+
 - Follow existing code style
 - Include tests for new functionality
 - Update relevant documentation
@@ -57,14 +62,19 @@ By participating in this project, you agree to abide by our Code of Conduct:
 
 1. Clone the repository
 2. Install dependencies:
+
 ```bash
 npm install
 ```
+
 3. Build the extension:
+
 ```bash
 npm run compile
 ```
+
 4. Run tests:
+
 ```bash
 npm test
 ```
@@ -74,6 +84,7 @@ npm test
 We welcome AI-assisted contributions but maintain some guidelines:
 
 ### Acceptable AI Usage
+
 - Code implementation assistance
 - Documentation generation
 - Test case generation
@@ -81,12 +92,14 @@ We welcome AI-assisted contributions but maintain some guidelines:
 - Bug fix suggestions
 
 ### AI Usage Requirements
+
 1. **Transparency**: Mention AI assistance in PR description
 2. **Quality**: All code must pass tests and review
 3. **Understanding**: You should understand the changes
 4. **Responsibility**: You're responsible for the code quality
 
 ### Best Practices
+
 - Review AI-generated code thoroughly
 - Test extensively
 - Ensure maintainable code
@@ -96,11 +109,13 @@ We welcome AI-assisted contributions but maintain some guidelines:
 ## Testing
 
 ### Running Tests
+
 ```bash
 npm test
 ```
 
 ### Writing Tests
+
 - Place tests in `src/test/suite`
 - Follow existing test patterns
 - Cover edge cases
@@ -123,8 +138,8 @@ npm test
 
 ## Project Structure
 
-```
-next-api-click/
+```bash
+next-hop/
 ├── src/
 │   ├── extension.ts       # Main extension code
 │   ├── test/             # Test files
@@ -147,6 +162,7 @@ next-api-click/
 ## Questions?
 
 Feel free to:
+
 1. Open an issue for clarification
 2. Start a discussion
 3. Reach out to maintainers
@@ -154,6 +170,7 @@ Feel free to:
 ## Attribution
 
 Remember to:
+
 - Credit original authors
 - Mention AI assistance when used
 - Respect licenses and copyrights

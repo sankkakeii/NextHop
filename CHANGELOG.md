@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
 - Initial extension setup
 - Basic Next.js API route detection
 - Support for App Router and Pages Router
@@ -18,12 +19,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AI attribution documentation
 
 ### Development Infrastructure
+
 - TypeScript configuration
 - Test suite setup
 - GitHub templates
 - Documentation structure
 
 ### Documentation
+
 - README.md with features and usage
 - CONTRIBUTING.md with guidelines
 - AI attribution documentation
@@ -31,7 +34,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Monetization strategy
 
 ## [0.0.1] - YYYY-MM-DD
+
 ### Added
+
 - Initial release
 - Basic Ctrl+Click navigation
 - Support for:

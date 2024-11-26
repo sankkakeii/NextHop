@@ -102,3 +102,5 @@ Special thanks to:
 - The Next.js community for inspiration
 - Windsurf's Cascade AI for development assistance
 - All contributors and users of this extension
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/sankkakeii)
