@@ -34,6 +34,10 @@ A VS Code extension that enables Ctrl+Click (Cmd+Click on Mac) navigation for Ne
 ## Usage
 
 1. Install the extension
+- A packaged version of the extenion is availble in this repo
+- run npm run compile
+- run vsce package to package your own verson (you need to have vsce installed  npm install -g vsce)
+
 2. Open a Next.js project in VS Code
 3. In your code, when you see a Next.js API route string (e.g., `/api/users`), hold Ctrl (Cmd on Mac) and click on it
 4. The extension will navigate you to the corresponding API route file

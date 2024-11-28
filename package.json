@@ -4,7 +4,7 @@
   "description": "Enable Ctrl+Click navigation for Next.js API routes",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Programming Languages"
